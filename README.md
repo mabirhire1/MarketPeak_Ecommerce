@@ -14,13 +14,13 @@ Create MarketPeak Ecommerce Folder and initialise Git.
 
 Download the specific template of choice and customize.
 
-![Download MarketPeak Template](images/readme-img1.png)
+![Download MarketPeak Template](images\readme-img1.png)
 
 **1.3 Stage and Commit the Template to GitHub:**
 
 Stage and commit the files to GitHub repository.
 
-![Stage and Commit](images/readme-img2.png)
+![Stage and Commit](images\readme-img2.png)
 
 ## 2. Aws Deployment:
 
@@ -40,7 +40,7 @@ Setup an Amazon EC2 instance to deploy MarketPeak_Ecommerce platform.
 
 **2.3 Configure httpd for Website**
 
-* Clearing the default httpd web directory, copy the MarketPeak Ecommerce files to it and reload the httpd service.
+* Clear the default httpd web directory, copy the MarketPeak Ecommerce files to it and reload the httpd service.
 
 ![Configure Website](images\readme-img5.png)
 
