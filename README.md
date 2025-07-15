@@ -1,6 +1,4 @@
-# MarketPeak_Ecommerce
-
-# MarketPeak-Ecommerce Website
+# MarketPeak Ecommerce Website
 
 This project downloads a free e-commerce website for a new marketplace named "MarketPeak" from https://www.tooplate.com/view/2082-pure-mix. Using Git as a version control the platform will be developed on a Linux environment and deployed on an AWS EC2 instance.
 
@@ -58,4 +56,20 @@ This covers how changes are made in a development environment, Using Git version
 
 **3.1 Developing New Features and Fixes**
 
-* Create development branch and implement changes/fix bugs on your website.  
+* Create development branch and implement changes/fix bugs on your website. 
+
+* Push development branch to GitHub, Create Pull Request, Review and Merge.
+
+![Merge Development Branch](images\readme-img7.png)
+
+**3.2 Deploying Updates to the Production Server**
+
+* SSH into your AWS EC2 instance where the production server is hosted. Navigate to the website's directory and pull the latest changes fro the main branch. Reload the server.
+
+![Pull Update](images\readme-img8.png)
+
+**3.3 Updated MarketPeak Ecommerce Website**
+
+* Access the website to confirm if the changes/fixes where effected.
+
+![Updated Website](images\readme-img9.png)
